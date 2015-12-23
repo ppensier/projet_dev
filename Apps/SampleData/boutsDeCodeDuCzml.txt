@@ -1,0 +1,80 @@
+à rajouter ds le czml pour un nouveau GPS.. ne pas oublier de separer ces derniers avec une virgule lors de l'ajout !!
+
+
+
+
+{
+    "id":"Satellite/bla",
+    "name":"ISS",
+    "availability":"2014-05-03T00:00:00Z/2014-05-09T23:59:30Z",
+    "description":"<!--HTML-->\r\n<p></p>",
+    "billboard":{
+      "eyeOffset":{
+        "cartesian":[
+          0,0,0
+        ]
+      },
+      "horizontalOrigin":"CENTER",
+      "image":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADJSURBVDhPnZHRDcMgEEMZjVEYpaNklIzSEfLfD4qNnXAJSFWfhO7w2Zc0Tf9QG2rXrEzSUeZLOGm47WoH95x3Hl3jEgilvDgsOQUTqsNl68ezEwn1vae6lceSEEYvvWNT/Rxc4CXQNGadho1NXoJ+9iaqc2xi2xbt23PJCDIB6TQjOC6Bho/sDy3fBQT8PrVhibU7yBFcEPaRxOoeTwbwByCOYf9VGp1BYI1BA+EeHhmfzKbBoJEQwn1yzUZtyspIQUha85MpkNIXB7GizqDEECsAAAAASUVORK5CYII=",
+      "pixelOffset":{
+        "cartesian2":[
+          0,0
+        ]
+      },
+      "scale":1.5,
+      "show":true,
+      "verticalOrigin":"CENTER"
+    },
+    "label":{
+      "fillColor":{
+        "rgba":[
+          255,0,255,255
+        ]
+      },
+      "font":"11pt Lucida Console",
+      "horizontalOrigin":"LEFT",
+      "outlineColor":{
+        "rgba":[
+          0,0,255,255
+        ]
+      },
+      "outlineWidth":2,
+      "pixelOffset":{
+        "cartesian2":[
+          12,0
+        ]
+      },
+      "show":true,
+      "style":"FILL_AND_OUTLINE",
+      "text":"bla",
+      "verticalOrigin":"CENTER"
+    },
+    "path":{
+      "show":[
+        {
+          "interval":"2014-05-03T00:00:00Z/2014-05-09T23:59:30Z",
+          "boolean":false
+        }
+      ],
+      "width":1,
+      "material":{
+        "solidColor":{
+          "color":{
+            "rgba":[
+              255,0,100,100
+            ]
+          }
+        }
+      },
+      "resolution":120,
+      "leadTime":[],
+      "trailTime":[]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE",
+      "interpolationDegree":5,
+      "referenceFrame":"INERTIAL",
+      "epoch":"2014-05-03T00:00:00Z",
+      "cartesian":[]
+    }
+  }

@@ -1,0 +1,32 @@
+
+<script>
+
+
+function point(lat, lon, namePoint) {
+		
+	var citizensBankPark = viewer.entities.add({
+	  name : 'Paris',
+	  position : Cesium.Cartesian3.fromDegrees(lon, lat),
+	  point : {
+		pixelSize : 5,
+		color : '/GroundStation.png',
+		outlineColor : Cesium.Color.WHITE,
+		outlineWidth : 2
+	  },
+	  label : {
+		text : namePoint,
+		font : '10pt monospace',
+		style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+		outlineWidth : 2,
+		verticalOrigin : Cesium.VerticalOrigin.BOTTOM,
+		pixelOffset : new Cesium.Cartesian2(0, -9)
+	  }
+	});
+	//viewer.zoomTo(viewer.entities);
+	}
+</script>
+
+
+
+
+
